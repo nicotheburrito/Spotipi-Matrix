@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Control</title>
+</head>
+<body>
+    <h1>Spotify Control</h1>
+    <form action="/" method="post">
+        <button name="action" value="start" type="submit">Start Spotify Script</button>
+        <button name="action" value="stop" type="submit">Stop Spotify Script</button>
+    </form>
+
+    <h2>Authorize Spotify</h2>
+    <a href="{{ auth_url }}" target="_blank">Authorize with Spotify</a>
+    <p>After authorization, paste the redirected URL here:</p>
+    <form action="/" method="post">
+        <input type="text" name="redirect_url" size="50">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
