@@ -27,7 +27,7 @@ in your terminal to ssh into your raspberrypi
 * Once you have found the directory you want your code in, make a nano file for the main program
    * To do this, use ```sudo nano insert_your_filename.py```
 * Now paste in this code
-   * (spotipi main code) ```https://github.com/nicotheburrito/Spotify-screen/blob/main/MainSpotipi.py```
+   * (spotipi main code) ```use file MainSpotipi.py above to access the code```
 * NOTE: To paste in nano, use ctrl + U
 * When you finish pasting in the code, be sure to change the Client ID and Secret on lines 25-26
 * Also change line 101 to the correct name of the idle picture in your directory
@@ -52,7 +52,7 @@ sudo nano index.html
 ```
 * and paste in this code:
 ```
-https://github.com/nicotheburrito/Spotify-screen/blob/main/index.html
+use file index.html above to access the code
 ```
    * REMEMBER: use ctrl + U in nano to paste
 ### Creating the webcontrols
@@ -60,7 +60,7 @@ https://github.com/nicotheburrito/Spotify-screen/blob/main/index.html
 * To do this use: ```sudo nano insert_your_filename.py```
 * Then paste this code into that file:
 ```
-https://github.com/nicotheburrito/Spotify-screen/blob/main/webcontrols.py
+use file webcontrols.py above to access the code
 ```
 * NOTE: Change your Client ID, Secret, and redirect URI on lines 10-12
 * NOTE: Change your path to the name of the file of the main program on line 64
